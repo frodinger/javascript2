@@ -16,29 +16,31 @@ should store your name as a string, and one called age which should store
 your age as a number.
 */
 const person = {
-    studentAt: "Chas"
-}
-    
-console.log(person)
-    
-/*
-Task 2: Add a fourth property to the object using the key `favoriteFoods`. Its value
-should be an array of strings with some foods you like.
-*/
-    
-    
+    studentAt: "Chas",
+    name: "Frej",
+    age: 23,
+    /*
+    Task 2: Add a fourth property to the object using the key `favoriteFoods`. Its value
+    should be an array of strings with some foods you like.
+    */
+   favoriteFoods: ["Sushi", "Pasta", "Souvas"]
+}    
+
 /*
 Task 3: Use the dot notation to print the name and age properties from the person
 object using console.log.
 */
-    
-    
+
+console.log(person.name);
+console.log(person.age);
+
 /*
 Task 4: You can add a property to an object using the dot notation and using assignment to
 set a its value. Do this to add a new property to the person object with the key `eyeColor`
 and value being a string with the color of your eyes.
 */
-    
+person.eyeColor = "Hazel";
+console.log(person);
     
 /*
 Task 5: Objects can be nested within other objects. To fetch a value, you must chain
@@ -56,3 +58,5 @@ const dogs = {
         }
     }
 }
+
+console.log(dogs.labrador.puppy.name);

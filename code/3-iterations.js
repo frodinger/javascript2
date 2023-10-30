@@ -51,7 +51,7 @@ let walk = function (dogName) {
 dogs.forEach(walk);
 */
 
-//ovan är det jag gjorde först, men gjorde denna nedan efter att jag såg koden i 4-maps
+//ovan är det jag gjorde först, men gjorde denna nedan efter att jag såg koden i 4-maps.html
 dogs.forEach((dogName) => {
     console.log(`The ${dogName} needs to go for a walk!`);
 })
