@@ -43,8 +43,15 @@ named function like the examples above (hint; the lecture material used anonymou
 and uses console.log to print "The {dogName} needs to go for a walk!".
 */
 
+/*
 let walk = function (dogName) {
     console.log(`The ${dogName} needs to go for a walk!`);
 }
 
 dogs.forEach(walk);
+*/
+
+//ovan är det jag gjorde först, men gjorde denna nedan efter att jag såg koden i 4-maps
+dogs.forEach((dogName) => {
+    console.log(`The ${dogName} needs to go for a walk!`);
+})
