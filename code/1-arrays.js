@@ -6,6 +6,7 @@ least 3 strings inside of it.
 */
 
 let newYearsResolutions = ["training", "travel", "food"];
+console.log(newYearsResolutions);
   
 /*
 Task 2: Create a new variable called `nextNewYearsResolution` and set it's value to the first
@@ -14,6 +15,7 @@ from arrays).
 */
 
 let nextNewYearsResolution = [newYearsResolutions[0]];
+console.log(nextNewYearsResolution);
   
 /* 
 Task 3: Use console.log() to print the 3rd item in the newYearsResolutions array without setting

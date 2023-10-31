@@ -43,11 +43,11 @@ named function like the examples above (hint; the lecture material used anonymou
 and uses console.log to print "The {dogName} needs to go for a walk!".
 */
 
+//funktionen jag gjorde först:
 /*
-let walk = function (dogName) {
+let walk = (dogName) => {
     console.log(`The ${dogName} needs to go for a walk!`);
 }
-
 dogs.forEach(walk);
 */
 
